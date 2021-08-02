@@ -1,4 +1,4 @@
-# Script consistes of 5 main parts:
+# Script consists of 5 main parts:
 1. Merging of two datasets in one 
 2. Extracting columns that contain only words "mean" or "std"
 3. Renaming columns with proper names
@@ -27,7 +27,7 @@ activity <- read.csv("activity_labels.txt", sep = "", header =F)
 train_label <- read.csv("train/y_train.txt", header = F)
 test_label <- read.csv("test/y_test.txt", header = F)
 ```
-Labels merging and renaming 
+Labels merging and set renaming
 ```R
 total_label <- rbind(train_label, test_label)
 merged_label <- merge(total_label, activity, by.x = "V1",by.y = "V1", 
