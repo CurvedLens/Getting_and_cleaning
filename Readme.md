@@ -37,7 +37,7 @@ activity <- merged_label[,2]
 adjusted_total_label <- cbind(activity, adjusted_total)
 ```
 ## 4. Labeling
-This step was partialy done on step **3** and will be finished on step **5**
+This step was done on step **3**. Existing names are quiet descriptive and represents names mentioned in tasks or from reseach itself
 ## 5. Summarising
 ```R
 train_subject <- read.csv("train/subject_train.txt", header = F)
