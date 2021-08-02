@@ -1,7 +1,7 @@
-|"column.names" | "class" | "range" | "mean"|
+|Names|Type|Min/Max|Mean|
 |---|---|---|---|
-| "activity" | "character" | "character" | "Not available"|
-| "subject" | "integer" | "1  /  30" | "Not available"
+| "activity" | "character" | - | - |
+| "subject" | "integer" | "1  /  30" | -
 | "tBodyAcc-mean()-X" | "numeric" | "0.265696920582133  /  0.304848333333333" | "0.274966887708401"
 | "tBodyAcc-mean()-Y" | "numeric" | "-0.0240660055  /  -0.0126604564370395" | "-0.0177925272996138"
 | "tBodyAcc-mean()-Z" | "numeric" | "-0.135723196  /  -0.100985935692074" | "-0.109418462727495"
